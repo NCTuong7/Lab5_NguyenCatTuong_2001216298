@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Bai1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Chọn danh mục" />
+
+        <Spinner
+            android:id="@+id/spinner_danhmuc"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_gravity="right"
+            android:spinnerMode="dialog"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Bai2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="15pt"
+        android:gravity="center"
+        android:textColor="#F44336"
+        android:text="Chọn công ty" />
+
+    <Spinner
+        android:id="@+id/spinner_Company"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:spinnerMode="dialog"
+        android:background="#E8C5C5"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="15pt"
+        android:gravity="center"
+        android:textColor="#F44336"
+        android:text="Chọn trái cây" />
+
+    <Spinner
+        android:id="@+id/spinner_TraiCay"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:spinnerMode="dialog"
+        android:background="#DAF1EF"
+        />
+</LinearLayout>
